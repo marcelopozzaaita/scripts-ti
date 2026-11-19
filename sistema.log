@@ -1,0 +1,11 @@
+2026-11-19 08:00:01 INFO Sistema iniciado
+2026-11-19 08:05:12 WARNING Uso de disco em 85%
+2026-11-19 08:10:45 ERROR Falha ao conectar no banco de dados
+2026-11-19 08:11:02 INFO Tentando reconectar
+
+2026-11-19 08:11:30 INFO Conexao restabelecida
+2026-11-19 09:15:20 ERROR Timeout na requisicao /api/usuarios
+2026-11-19 09:40:07 WARNING Memoria em 90%
+2026-11-19 10:02:55 ERROR Disco cheio em /var/log
+2026-11-19 10:03:10 INFO Limpeza de logs executada
+2026-11-19 11:30:00 INFO Backup concluido
