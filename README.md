@@ -1,23 +1,5 @@
 # Scripts de TI
 
-Exercícios e scripts em Python que estou desenvolvendo para praticar automação e administração de sistemas.
-
-## Scripts
-
-- `ola.py`: primeiro script, imprime "Olá, mundo!".
-- `par_impar.py`: lê um número e informa se ele é par ou ímpar.
-- `conta_palavras.py`: conta quantas vezes cada palavra aparece em uma frase.
-- `tabuada.py`: mostra a tabuada de um número até um limite escolhido.
-- `lista.py`: calcula a soma e a média de uma lista de números.
-- `letra_inicial.py`: filtra uma lista e devolve os nomes que começam com "A".
-
-## Como executar
-
-```bash
-python3 nome_do_script.py
-```
-# Scripts de TI
-
 Exercícios e scripts em Python que estou desenvolvendo para praticar programação, automação e análise de logs, como preparação para trabalhar com administração de sistemas e redes.
 
 ## Como executar
@@ -35,7 +17,7 @@ python3 nome_do_script.py
 | `ola.py` | Primeiro script, imprime "Olá, mundo!". |
 | `par_impar.py` | Lê um número e informa se ele é par ou ímpar. |
 | `tabuada.py` | Mostra a tabuada de um número até um limite escolhido pelo usuário. |
-| `soma_media.py` | Calcula a soma e a média de uma lista de números. |
+| `lista.py` | Calcula a soma e a média de uma lista de números. |
 | `max_min.py` | Encontra o maior e o menor valor de uma lista. |
 | `fizzbuzz.py` | Imprime "Fizz", "Buzz" ou "FizzBuzz" conforme os múltiplos de 3 e 5. |
 
@@ -58,9 +40,15 @@ python3 nome_do_script.py
 | `analisar_log.py` | Conta as linhas por nível (INFO, WARNING, ERROR), ignora linhas mal formatadas, trata arquivo inexistente e grava um relatório em arquivo. |
 | `sistema.log` | Arquivo de log de exemplo usado nos testes. |
 
+## Automação de arquivos
+
+| Script | O que faz |
+|---|---|
+| `explorar.py` | Lista o conteúdo de uma pasta mostrando nome, extensão e tipo de cada item. |
+| `organizar.py` | Organiza os arquivos de uma pasta em subpastas por extensão. Aceita o caminho como argumento e a opção `--simular`. |
+
 ## Próximos passos
 
-- Organização de arquivos de uma pasta por extensão (`os`, `pathlib`, `argparse`)
 - Scripts de teste de rede (`socket`, `subprocess`)
 - Shell script para backup e automação
 - Noções de Docker
