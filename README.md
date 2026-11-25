@@ -47,8 +47,19 @@ python3 nome_do_script.py
 | `explorar.py` | Lista o conteúdo de uma pasta mostrando nome, extensão e tipo de cada item. |
 | `organizar.py` | Organiza os arquivos de uma pasta em subpastas por extensão. Aceita o caminho como argumento e a opção `--simular`. |
 
+## Shell script e Linux
+
+| Arquivo | O que faz |
+|---|---|
+| `notas_linux.md` | Resumo dos comandos de Linux que pratiquei (arquivos, permissões, busca e processos). |
+| `shell/saudacao.sh` | Exercício de variáveis, argumentos e leitura de entrada. |
+| `shell/verifica.sh` | Diz se um caminho é arquivo, pasta ou não existe. |
+| `shell/listar.sh` | Lista o conteúdo de uma pasta e conta os itens. |
+| `shell/backup.sh` | Compacta uma pasta em `.tar.gz` com data e hora no nome. Aceita a origem e, opcionalmente, o destino. |
+
 ## Próximos passos
 
-- Scripts de teste de rede (`socket`, `subprocess`)
-- Shell script para backup e automação
+- Estudo de redes e comandos de diagnóstico (`ping`, `ip`, `ss`, `dig`)
+- Scripts de teste de rede em Python (`socket`, `subprocess`)
+- Noções de administração de Windows com PowerShell
 - Noções de Docker
