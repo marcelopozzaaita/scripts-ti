@@ -56,10 +56,10 @@ python3 nome_do_script.py
 | `shell/verifica.sh` | Diz se um caminho é arquivo, pasta ou não existe. |
 | `shell/listar.sh` | Lista o conteúdo de uma pasta e conta os itens. |
 | `shell/backup.sh` | Compacta uma pasta em `.tar.gz` com data e hora no nome. Aceita a origem e, opcionalmente, o destino. |
+| `notas_redes.md` | Resumo de conceitos de redes e dos comandos de diagnostícos (ip, ping, ss, traceroute). |
 
 ## Próximos passos
 
-- Estudo de redes e comandos de diagnóstico (`ping`, `ip`, `ss`, `dig`)
 - Scripts de teste de rede em Python (`socket`, `subprocess`)
 - Noções de administração de Windows com PowerShell
 - Noções de Docker
