@@ -10,4 +10,3 @@ def contador_vogais(frase):
 
 frase = "Eu comi muito bem.Oi!"
 print(f"Numero de vogais: {contador_vogais(frase)}")
-

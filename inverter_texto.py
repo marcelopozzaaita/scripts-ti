@@ -8,7 +8,3 @@ print(f"A palavra invertida {palavra_invertida}")
 
 if(palavra == palavra_invertida):
     print("É um palíndormo")
-
-
-
-

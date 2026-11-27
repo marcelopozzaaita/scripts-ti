@@ -10,19 +10,19 @@ print(args.pasta)
 
 pasta = Path(args.pasta).expanduser()
 if not pasta.is_dir():
-    print(f"Erro: '{pasta} não é uma pasta válida")
+    print(f"Erro: {pasta} não é uma pasta válida")
     raise SystemExit(1)
 for item in list(pasta.iterdir()):
     if item.is_file():
         extensao = item.suffix.lower().lstrip(".")
-        if  extensao == "":
+        if extensao == "":
             extensao = "sem_extensao"
 
         destino = pasta / extensao
-        if (args.simular):
+        if args.simular:
             print(f"[SIMULAÇÃO]: {item.name} -> {extensao}/.")
-        elif(destino / item.name).exists():
-            print(f"Aviso: {item.name} já existe em {extensao}, ignorado")
+        elif (destino / item.name).exists():
+            print(f"Aviso: {item.name} já existe em {extensao}/., ignorado")
         else:
             destino.mkdir(exist_ok=True)
             item.rename(destino / item.name)

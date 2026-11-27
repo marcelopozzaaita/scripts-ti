@@ -1,4 +1,4 @@
-contagem ={}
+contagem = {}
 try:
     arq = input("Digite o nome do arquivo: ")
     with open(arq, "r", encoding="utf-8") as f:
